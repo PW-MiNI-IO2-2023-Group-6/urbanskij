@@ -5,7 +5,7 @@
         public static int Calculate(string str)
         {
             if (string.IsNullOrEmpty(str))
-                return 0;
+                return -1;
 
             var nums = str.StartsWith("//")
                 ? str.Substring(3).Split(',', '\n', str[2])
