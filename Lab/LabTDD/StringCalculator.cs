@@ -1,6 +1,6 @@
 ﻿namespace LabTDD
 {
-    public static class StringCalculator // good
+    public static class StringCalculator // even better
     {
         public static int Calculate(string str)
         {
